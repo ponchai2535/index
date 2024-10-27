@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif; /* กำหนดฟอนต์ */
+    background: url('img/55.PNG') no-repeat center center fixed; /* ตั้งค่าภาพพื้นหลัง */
+    background-size: cover; /* ปรับขนาดภาพพื้นหลังให้เต็มพื้นที่ */
+    color: #333; /* กำหนดสีตัวอักษร */
+    display: flex; /* ใช้ flexbox เพื่อจัดตำแหน่ง */
+    justify-content: center; /* จัดให้อยู่กลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+    height: 100vh; /* ความสูงเต็มหน้าจอ */
+    margin: 0; /* ลบ margin */
+}
+
+.container {
+    background: white; /* สีพื้นหลังของ container */
+    border-radius: 8px; /* มุมโค้งของ container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* เงาของ container */
+    padding: 20px; /* ช่องว่างภายใน */
+    width: 300px; /* ความกว้างของ container */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+h1 {
+    color: #4CAF50; /* สีของหัวข้อ */
+}
+
+input {
+    width: calc(100% - 20px); /* ความกว้างของ input */
+    padding: 15px; /* ช่องว่างภายใน */
+    margin: 10px 0; /* ช่องว่างด้านบนและด้านล่าง */
+    border: 1px solid #ccc; /* กรอบของ input */
+    border-radius: 4px; /* มุมโค้งของ input */
+}
+
+button {
+    background-color: #4CAF50; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีตัวอักษรของปุ่ม */
+    padding: 15px; /* ช่องว่างภายใน */
+    border: none; /* ไม่มีกรอบ */
+    border-radius: 4px; /* มุมโค้งของปุ่ม */
+    cursor: pointer; /* แสดงมือเมื่อวางเมาส์ */
+    transition: background-color 0.3s; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+}
+
+button:hover {
+    background-color: #45a049; /* สีพื้นหลังเมื่อ hover */
+}
+
+.result {
+    margin-top: 20px; /* ช่องว่างด้านบน */
+}
