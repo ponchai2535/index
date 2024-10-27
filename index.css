@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif; /* กำหนดฟอนต์ */
-    background: url('img/55.jpg') no-repeat center center fixed; /* ตั้งค่าภาพพื้นหลัง */
+   background: url('img/55.jpg') no-repeat center center fixed; /* ตั้งค่าภาพพื้นหลัง */  
     background-size: cover; /* ปรับขนาดภาพพื้นหลังให้เต็มพื้นที่ */
     color: #333; /* กำหนดสีตัวอักษร */
     display: flex; /* ใช้ flexbox เพื่อจัดตำแหน่ง */
